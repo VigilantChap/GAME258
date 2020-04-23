@@ -33,7 +33,7 @@ void Camera::UpdateCameraVectors() {
 
 void Camera::AddLightSource(LightSource* newLight_) { lightSources.push_back(newLight_); }
 
-std::vector<LightSource*> Camera::GetLightSources() { return lightSources; }
+std::vector<LightSource*> Camera::GetLightSources() const { return lightSources; }
 
 
 //mouse sensitivity

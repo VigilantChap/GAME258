@@ -20,13 +20,12 @@ public:
 	inline glm::mat4 GetView() const { return glm::lookAt(position, position + forward, up); }
 	inline glm::mat4 GetPerspective() const { return perspective; }
 	inline glm::mat4 GetOrtho() const { return orthographic; }
-	//inline glm::mat4 GetView() const { return glm::lookAt(position, position + forward, up); }
-	//inline glm::mat4 GetPerspective() const { return perspective; }
-	//inline glm::mat4 GetOrthographic() const { return orthographic; }
 	inline glm::vec3 GetPosition() const { return position; }
 
+	inline glm::vec2 GetClippingPlanes() const { return glm::vec2(nearPlane, farPlane); }
+
 	void AddLightSource(LightSource* newLight_);
-	std::vector<LightSource*> GetLightSources();
+	std::vector<LightSource*> GetLightSources() const;
 
 	void ProcessMouseMovement(glm::vec2 offset_);
 	void ProcessMouseScroll(int y_);

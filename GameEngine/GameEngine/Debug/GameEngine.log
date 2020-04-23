@@ -1,7 +1,7 @@
-﻿  Camera.cpp
-  Debug.cpp
+﻿  CollisionHandler.cpp
+  CollisionDetection.cpp
+  Camera.cpp
   CoreEngine.cpp
-  GameInterface.cpp
   GameObject.cpp
 C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Rendering\3D\GameObject.cpp(60,17): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   EventListener.cpp
@@ -9,20 +9,12 @@ C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Rendering\3
   Game1.cpp
   LoadOBJModel.cpp
 C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Rendering\3D\LoadOBJModel.cpp(101,20): warning C4018: '<': signed/unsigned mismatch
-  LightSource.cpp
   Main.cpp
-  Window.cpp
-  Timer.cpp
-  Scene.cpp
   StartScene.cpp
   Mesh.cpp
 C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Rendering\3D\Mesh.cpp(50,20): warning C4018: '<': signed/unsigned mismatch
   Model.cpp
 C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Rendering\3D\Model.cpp(60,20): warning C4018: '<': signed/unsigned mismatch
-  ShaderHandler.cpp
-  TextureHandler.cpp
-C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Graphics\TextureHandler.cpp(63,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Graphics\TextureHandler.cpp(64,21): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   MouseEventListener.cpp
 C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Events\MouseEventListener.cpp(78,54): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
           with
@@ -49,10 +41,6 @@ C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Events\Mous
           [
               T=float
           ]
-  Generating Code...
-  Compiling...
   SceneGraph.cpp
-  MaterialHandler.cpp
-  MaterialLoader.cpp
   Generating Code...
   GameEngine.vcxproj -> C:\Users\froli\Documents\GitHub\GAME258\GameEngine\Debug\GameEngine.exe
