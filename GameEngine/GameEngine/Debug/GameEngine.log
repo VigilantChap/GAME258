@@ -1,0 +1,3 @@
+﻿  LoadOBJModel.cpp
+C:\Users\froli\Documents\Classes\Game Engines 4\GameEngine\GameEngine\Engine\Rendering\3D\LoadOBJModel.cpp(101,20): warning C4018: '<': signed/unsigned mismatch
+  GameEngine.vcxproj -> C:\Users\froli\Documents\Classes\Game Engines 4\GameEngine\Debug\GameEngine.exe
