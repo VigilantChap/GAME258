@@ -8,4 +8,8 @@ $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
   <PropertyGroup>
     <ShowAllFiles>true</ShowAllFiles>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerEnvironment>PATH=%PATH%;C:\GameDev\SDL\dll;C:\GameDev\OpenGL\dll;</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
 </Project>
