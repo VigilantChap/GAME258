@@ -2,7 +2,7 @@
 
 std::unique_ptr<CoreEngine> CoreEngine::engineInstance = nullptr;
 
-CoreEngine::CoreEngine() : window(nullptr), isRunning(false), fps(120), gameInterface(nullptr), currentSceneNum(0) {
+CoreEngine::CoreEngine() : window(nullptr), isRunning(false), fps(120), gameInterface(nullptr), currentSceneNum(0), camera(nullptr) {
 
 }
 
@@ -101,7 +101,7 @@ void CoreEngine::NotifyOfMousePressed(glm::vec2 mouse_) {
 }
 
 void CoreEngine::NotifyOfMouseRelease(glm::vec2 mouse_, int buttonType_) {
-
+	CollisionHandler::GetInstance()->MouseUpdate(mouse_, buttonType_);
 }
 
 void CoreEngine::NotifyOfMouseMove(glm::vec2 mouse_) {

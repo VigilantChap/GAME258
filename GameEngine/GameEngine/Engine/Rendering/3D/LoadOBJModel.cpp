@@ -9,6 +9,7 @@ LoadOBJModel::LoadOBJModel() : currentMaterial(Material()) {
 	textureIndices.reserve(200);
 	meshVertices.reserve(200);
 	subMeshes.reserve(10);
+	box = BoundingBox();
 }
 
 LoadOBJModel::~LoadOBJModel() {
@@ -22,6 +23,9 @@ void LoadOBJModel::LoadModel(const std::string& objFilePath__) {
 		Debug::Error("Cannot open OBJ file: " + objFilePath__, "LoadOBJModel.cpp", __LINE__);
 			return;
 	}
+
+	box.maxVert = glm::vec3(FLT_MIN);
+	box.minVert = glm::vec3(FLT_MAX);
 
 	std::string line;
 	while (std::getline(in, line)) {

@@ -5,6 +5,7 @@
 #include <map>
 #include <vector>
 #include "3D/GameObject.h"
+#include "../Math/CollisionHandler.h"
 
 class SceneGraph
 {

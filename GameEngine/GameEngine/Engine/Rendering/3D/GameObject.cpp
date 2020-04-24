@@ -7,6 +7,7 @@ GameObject::GameObject(Model* model_, glm::vec3 position_) : model(nullptr) {
 	rotation = glm::vec3(0.0f, 1.0f, 0.0f);
 	scale = glm::vec3(1.0f);
 	tag = "";
+	hit = false; 
 
 	if (model) {
 		modelInstance = model->CreateInstance(position, angle, rotation, scale);

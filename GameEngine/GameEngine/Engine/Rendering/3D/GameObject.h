@@ -30,6 +30,10 @@ public:
 	inline void SetTag(std::string tag_) { tag = tag_; }
 
 	inline BoundingBox GetBoundingBox() const { return box; }
+
+	inline bool GetHit() const { return hit; }
+	inline void SetHit(bool hit_, int buttonType_) { hit = hit_; if (hit) std::cout << tag + " was hit" << std::endl; }
+
 private:
 	Model* model;
 	int modelInstance;
@@ -41,6 +45,8 @@ private:
 
 	BoundingBox box;
 	std::string tag;
+
+	bool hit;
 };
 
 
