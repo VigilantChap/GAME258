@@ -16,7 +16,7 @@ bool GameScene::OnCreate() {
 		new LightSource(glm::vec3(0.0f, 0.0f, 2.0f),
 			0.1f, 0.5f, glm::vec3(1.0f, 1.0f, 1.0f)));
 
-	CollisionHandler::GetInstance()->OnCreate();
+	CollisionHandler::GetInstance()->OnCreate(100.0f);
 
 
 	Model* model1 = new Model("./Resources/Models/Dice.obj", 

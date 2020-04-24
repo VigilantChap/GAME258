@@ -1,3 +1,39 @@
-﻿  LoadOBJModel.cpp
-C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Rendering\3D\LoadOBJModel.cpp(105,20): warning C4018: '<': signed/unsigned mismatch
+﻿  Camera.cpp
+  CoreEngine.cpp
+  OctSpatialPartition.cpp
+  EventListener.cpp
+  MouseEventListener.cpp
+C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Events\MouseEventListener.cpp(78,54): warning C4244: '=': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Events\MouseEventListener.cpp(81,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Events\MouseEventListener.cpp(82,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Events\MouseEventListener.cpp(88,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\froli\Documents\GitHub\GAME258\GameEngine\GameEngine\Engine\Events\MouseEventListener.cpp(89,13): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  CollisionDetection.cpp
+  CollisionHandler.cpp
+  SceneGraph.cpp
+  Game1.cpp
+  GameScene.cpp
+  StartScene.cpp
+  Main.cpp
+  Generating Code...
   GameEngine.vcxproj -> C:\Users\froli\Documents\GitHub\GAME258\GameEngine\Debug\GameEngine.exe

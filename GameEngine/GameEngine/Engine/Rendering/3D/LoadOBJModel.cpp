@@ -70,7 +70,7 @@ void LoadOBJModel::LoadModel(const std::string& objFilePath__) {
 			}
 		}
 
-		else if (line.substr(0, 7) == "usemlt ") {
+		else if (line.substr(0, 7) == "usemtl ") {
 			if (indices.size() > 0) {
 				PostProcessing();
 			}

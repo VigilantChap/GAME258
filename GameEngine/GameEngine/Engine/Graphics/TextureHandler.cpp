@@ -1,5 +1,6 @@
 #include "TextureHandler.h"
 
+
 std::unique_ptr<TextureHandler> TextureHandler::textureInstance = nullptr;
 std::vector<Texture*> TextureHandler::textures = std::vector<Texture*>();
 
